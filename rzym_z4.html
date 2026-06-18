@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+     <head> 
+             <meta charset="utf-8"> 
+             <title>Rzymowski z4_html</title> 
+     </head> 
+    <body> 
+<font size=5><b>1)<u>Zewnętrzny</u> arkusz stylów.</b></font><br>
+<fieldset>
+&lt;head&gt; <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt; <br>
+&lt;head&gt;
+</fieldset>
+<font size=5><b>2)Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii)  czyli <br>
+dopisanie arkusza do wybranego bloku treści strony. </b></font>
+<fieldset>
+&lt;selektor style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/selektor&gt;
+</fieldset>
+<font size=5><b>3)<u>Wewnętrzny</u> arkusz stylów.</b></font>
+<fieldset>
+ &lt;head&gt;<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;style type="text/css"&gt;</b><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;/style&gt;</b><br>
+&lt;/head&gt;<br>
+</fieldset>
+<font size=5><b>4)<u>Alternatywny</u> arkusz stylów.</b></font>
+<fieldset>
+&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /&gt;<br>
+&lt;/head&gt;
+</fieldset>
+<font size=5><b>5)<u>Import</u> arkusza stylów.</b></font>
+<fieldset>
+&lt;style type="text/css"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @import url(adres zewnętrznego arkusza stylów);
+<br>&lt;/style&gt;
+</fieldset>
+
+</body> 
+  </html> 
+
+<!--  Rzymowski Z4_html  -->
