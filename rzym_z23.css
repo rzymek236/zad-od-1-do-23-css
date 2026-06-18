@@ -1,0 +1,27 @@
+p#pogrubienie_rzymowski { 
+font-size: 32px;
+color: #8060CA;
+}
+p#pochylona_rzymowski {
+font-size: 37pt;
+color: #E4C466;
+}
+p#index_gorny_rzymowski {
+font-size: 1,2cm;
+color: #949216;
+}
+p#index_dolny_rzymowski {
+font-size: 1,9cm;
+color: rgb(19%,96%,87%);
+}
+p#mono_rzymowski {
+font-size: 42px;
+color: #14E266;
+}
+p#powiekszenie_rzymowski {
+color: #4E0098;
+}
+p#pomniejszenie_rzymowski {
+color: rgb(70%,65%,20%)
+}
+/*  Rzymowski Z23_html */ 
