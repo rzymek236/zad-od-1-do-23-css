@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rzymowski Z15_kod</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body bgcolor="silver">
+<p>
+rzym_z15.html<br>
+<textarea  cols=60 rows=48>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rzymowski Z15_html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- zewnetrzne -->
+<LINK href="rzym_z15.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+Autor: Michał Rzymowski 2F<br>
+mam na imię Michał czyli sześć liter J=6<br>
+mam na nazwisko Rzymowski czyli siedem liter N=9<br>
+Mój numer z dziennika to 23<br>
+Data urodzenia: 29.03.2010, numer buta=45<br>
+Numer miesiąca urodzenia = 3(marzec)<br>
+Numer dnia urodzenia = 29 (dwudziesty dziewiąty dzień)<br>
+================================<br>
+Definiowanie koloru znacznika p<br>
+Zmiana koloru liter ---&gt; sposobem pierwszym z tabeli/instrukcji<br>
+100+numer miesiąca urodzenia = 100+3 = (103)10=(#66)H<br>
+150+numer dnia urodzenia = 150+29 = (179)10=(#99)H<br>
+50+numer buta = 50+45=(95)10=(#60)H<br>
+Czyli kolor w HEX #669960 dla znacznika p<br>
+Znacznik p ---&gt; {color:#669960}, wielkość liter 10+N=17mm<br>
+================================<br>
+Definiowanie koloru znacznika body<br>
+Zmiana koloru liter ---&gt; sposobem czwartym z tabeli/instrukcji<br>
+R=125+numer dnia urodzenia = 125+29=154 R=154/255*100%=50%<br>
+G=50+numer buta = 50+45=95 G=95/255*100%=38%<br>
+B=200+numer miesiąca urodzenia = 200+3=203 B=203/255*100%=79%<br>
+Czyli kolor w RGB 50%,38%,79% dla znacznika body<br>
+Znacznik body ---&gt;  {color:RGB(50%,38%,79%)}, wielkość liter 10+J=16mm<br>
+<p>:) Zadowolenie, uśmiech</p>
+;) Mruganie, puszczanie oczka<br>
+<p>:D Szczęście, bardzo szeroki uśmiech, śmiech</p>
+:(( Duży smutek, duże przygnębienie, (lekki) płacz<br>
+<p>:)) Radość, szeroki uśmiech, chichot</p>
+:| Brak emocji<br>
+
+</body>
+</html>
+<!--  Rzymowski Z15_html  -->
+</textarea>
+<br>rzym_z15.css<br>
+<textarea cols=60 rows=13>
+
+body { 
+ font-size: 16mm; 
+ color: RGB(50%,38%,79%) ; 
+ background-color: white;  
+} 
+ 
+p { 
+ color: #669960 ;
+ font-size: 17mm ; 
+} 
+/*  Rzymowski Z15_html */ 
+</textarea>
+
+
+
+</p>
+</body>
+</html>
+<!--  Rzymowski Z15_kod  -->
